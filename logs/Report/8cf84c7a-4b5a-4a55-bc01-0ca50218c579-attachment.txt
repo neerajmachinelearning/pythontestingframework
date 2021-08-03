@@ -1,0 +1,6 @@
+This is objeclist 0 : <pages.base.Base object at 0x1069bcca0>
+Landing Page Title - Log in to continue - Log in with Atlassian account
+Login Page Title - Log in to continue - Log in with Atlassian account
+yourwork Page Title - Log in to continue - Log in with Atlassian account
+Expected Title: Log in to continue - Log in with Atlassian account, Actual Title:Log in to continue - Log in with Atlassian account
+inside if statement

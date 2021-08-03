@@ -1,0 +1,211 @@
+{
+  "uid" : "a2d729a1a12adf79",
+  "name" : "test_web_be_api_url[argvals3]",
+  "fullName" : "test_api.test_web_be_api.Test_Web_BE_URL#test_web_be_api_url",
+  "historyId" : "e7fa5538189f939db2d2a7adb6439db5",
+  "time" : {
+    "start" : 1626887610346,
+    "stop" : 1626887610622,
+    "duration" : 276
+  },
+  "status" : "broken",
+  "statusMessage" : "UnboundLocalError: local variable 'code' referenced before assignment",
+  "statusTrace" : "self = <test_api.test_web_be_api.Test_Web_BE_URL object at 0x103da1b80>\nargvals = {'Code': '', 'Endpoint': '/v1/api/sso/callback', 'ExpectedMessage': 'The code field is required.', 'ExpectedStatusCode': 422.0, ...}\n\n    @pytest.mark.apitest\n    @allure.story(\"CT-22 Create a Endpoint to support forwarding callback URL to Web Be\")\n    @pytest.mark.parametrize(\"argvals\", getcelldata(\"web_Be_Test\", constants.DATASHEETPATH))\n    def test_web_be_api_url(self, argvals):\n        with allure.step(\"Validating Web BE API\"):\n            logger.info(\"test_web_be_api_url started\")\n            print(\"Inside test_web_be_api_url function\")\n            api_res = self.get(host=constants.QA_WAPI_BE_HOST, endpoint=argvals['Endpoint'], headers=None, expected_status_code=argvals['ExpectedStatusCode'], params={'code':f\"{argvals['Code']}\"})\n            rs_json = api_res.json()\n            logger.info(api_res.json())\n            if api_res.status_code != 200:\n                message = rs_json['errors']['code'][0]\n            else:\n                code = rs_json['data'][0]\n>           print(f\"data: {code}\")\nE           UnboundLocalError: local variable 'code' referenced before assignment\n\ntest_web_be_api.py:28: UnboundLocalError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_fixture",
+    "time" : {
+      "start" : 1626887610345,
+      "stop" : 1626887610345,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Base Fixture Setup",
+      "time" : {
+        "start" : 1626887610345,
+        "stop" : 1626887610345,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Finishing up",
+      "time" : {
+        "start" : 1626887610345,
+        "stop" : 1626887610625,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'code' referenced before assignment",
+    "statusTrace" : "self = <test_api.test_web_be_api.Test_Web_BE_URL object at 0x103da1b80>\nargvals = {'Code': '', 'Endpoint': '/v1/api/sso/callback', 'ExpectedMessage': 'The code field is required.', 'ExpectedStatusCode': 422.0, ...}\n\n    @pytest.mark.apitest\n    @allure.story(\"CT-22 Create a Endpoint to support forwarding callback URL to Web Be\")\n    @pytest.mark.parametrize(\"argvals\", getcelldata(\"web_Be_Test\", constants.DATASHEETPATH))\n    def test_web_be_api_url(self, argvals):\n        with allure.step(\"Validating Web BE API\"):\n            logger.info(\"test_web_be_api_url started\")\n            print(\"Inside test_web_be_api_url function\")\n            api_res = self.get(host=constants.QA_WAPI_BE_HOST, endpoint=argvals['Endpoint'], headers=None, expected_status_code=argvals['ExpectedStatusCode'], params={'code':f\"{argvals['Code']}\"})\n            rs_json = api_res.json()\n            logger.info(api_res.json())\n            if api_res.status_code != 200:\n                message = rs_json['errors']['code'][0]\n            else:\n                code = rs_json['data'][0]\n>           print(f\"data: {code}\")\nE           UnboundLocalError: local variable 'code' referenced before assignment\n\ntest_web_be_api.py:28: UnboundLocalError",
+    "steps" : [ {
+      "name" : "Validating Web BE API",
+      "time" : {
+        "start" : 1626887610346,
+        "stop" : 1626887610621,
+        "duration" : 275
+      },
+      "status" : "broken",
+      "statusMessage" : "UnboundLocalError: local variable 'code' referenced before assignment\n",
+      "statusTrace" : "  File \"/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_api/test_web_be_api.py\", line 28, in test_web_be_api_url\n    print(f\"data: {code}\")\n",
+      "steps" : [ {
+        "name" : "Making a get call for endpoint /v1/api/sso/callback",
+        "time" : {
+          "start" : 1626887610346,
+          "stop" : 1626887610621,
+          "duration" : 275
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Validate https Status Code for get api",
+          "time" : {
+            "start" : 1626887610619,
+            "stop" : 1626887610621,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "19ada45716fcbdcf",
+      "name" : "log",
+      "source" : "19ada45716fcbdcf.txt",
+      "type" : "text/plain",
+      "size" : 513
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "base_fixture::0",
+    "time" : {
+      "start" : 1626887610625,
+      "stop" : 1626887610625,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Quiting Browser",
+      "time" : {
+        "start" : 1626887610625,
+        "stop" : 1626887610625,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "CT-22 Create a Endpoint to support forwarding callback URL to Web Be"
+  }, {
+    "name" : "tag",
+    "value" : "apitest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_api"
+  }, {
+    "name" : "suite",
+    "value" : "test_web_be_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Web_BE_URL"
+  }, {
+    "name" : "host",
+    "value" : "neerajs-mbp-2.lan"
+  }, {
+    "name" : "thread",
+    "value" : "25226-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_api.test_web_be_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "argvals",
+    "value" : "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/callback', 'Code': '', 'ExpectedStatusCode': 422.0, 'ExpectedMessage': 'The code field is required.'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "apitest" ]
+  },
+  "source" : "a2d729a1a12adf79.json",
+  "parameterValues" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/callback', 'Code': '', 'ExpectedStatusCode': 422.0, 'ExpectedMessage': 'The code field is required.'}" ]
+}

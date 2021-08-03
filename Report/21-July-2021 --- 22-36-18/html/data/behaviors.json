@@ -1,0 +1,117 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "CT-10 Implement SSO Callback route in old talech",
+    "children" : [ {
+      "name" : "test_redirct_callback_url[argvals0]",
+      "uid" : "912399b801f4ae15",
+      "parentUid" : "6efbe5b0a1239145274fd55316333b37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626921374221,
+        "stop" : 1626921374738,
+        "duration" : 517
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/sso/usb/callback', 'Code': '9876543209987654320998765432099876543209', 'ExpectedStatusCode': 302.0, 'ExpectedMessage': 'No Message'}" ]
+    }, {
+      "name" : "test_redirct_callback_url[argvals1]",
+      "uid" : "87714508a087d269",
+      "parentUid" : "6efbe5b0a1239145274fd55316333b37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626921374745,
+        "stop" : 1626921374945,
+        "duration" : 200
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/sso/usb/callback', 'Code': '98765432099876543209987654', 'ExpectedStatusCode': 422.0, 'ExpectedMessage': 'The code must be at least 30 characters.'}" ]
+    }, {
+      "name" : "test_redirct_callback_url[argvals2]",
+      "uid" : "9ec8a5d039fe6cb2",
+      "parentUid" : "6efbe5b0a1239145274fd55316333b37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626921374952,
+        "stop" : 1626921375336,
+        "duration" : 384
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/sso/usb/callback', 'Code': '087698769876987698769876123456', 'ExpectedStatusCode': 302.0, 'ExpectedMessage': 'No Message'}" ]
+    }, {
+      "name" : "test_redirct_callback_url[argvals3]",
+      "uid" : "87ee947818831869",
+      "parentUid" : "6efbe5b0a1239145274fd55316333b37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626921375340,
+        "stop" : 1626921375538,
+        "duration" : 198
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/sso/usb/callback', 'Code': '', 'ExpectedStatusCode': 422.0, 'ExpectedMessage': 'The code field is required.'}" ]
+    } ],
+    "uid" : "6efbe5b0a1239145274fd55316333b37"
+  }, {
+    "name" : "CT-22 Create a Endpoint to support forwarding callback URL to Web Be",
+    "children" : [ {
+      "name" : "test_web_be_api_url[argvals0]",
+      "uid" : "b7d4fb366aafcd8a",
+      "parentUid" : "10cf6752e2677d8227747e736ded10b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626921375543,
+        "stop" : 1626921375851,
+        "duration" : 308
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/usb/callback', 'Code': '9876543209987654320998765432099876543209', 'ExpectedStatusCode': 200.0, 'ExpectedMessage': 'Ok'}" ]
+    }, {
+      "name" : "test_web_be_api_url[argvals1]",
+      "uid" : "f5ca6cf3769a2b6b",
+      "parentUid" : "10cf6752e2677d8227747e736ded10b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626921375857,
+        "stop" : 1626921376138,
+        "duration" : 281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/usb/callback', 'Code': '98765432099876543209987654', 'ExpectedStatusCode': 422.0, 'ExpectedMessage': 'The code must be at least 30 characters.'}" ]
+    }, {
+      "name" : "test_web_be_api_url[argvals2]",
+      "uid" : "ef8e1e5c299008c9",
+      "parentUid" : "10cf6752e2677d8227747e736ded10b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626921376142,
+        "stop" : 1626921376412,
+        "duration" : 270
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/usb/callback', 'Code': '087698769876987698769876123456', 'ExpectedStatusCode': 200.0, 'ExpectedMessage': 'Ok'}" ]
+    }, {
+      "name" : "test_web_be_api_url[argvals3]",
+      "uid" : "93c9f5e5efcd45a1",
+      "parentUid" : "10cf6752e2677d8227747e736ded10b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626921376416,
+        "stop" : 1626921376687,
+        "duration" : 271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/usb/callback', 'Code': '', 'ExpectedStatusCode': 422.0, 'ExpectedMessage': 'The code field is required.'}" ]
+    } ],
+    "uid" : "10cf6752e2677d8227747e736ded10b9"
+  } ]
+}

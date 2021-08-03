@@ -1,0 +1,5 @@
+[32mINFO    [0m root:test_web_be_api.py:19 test_web_be_api_url started
+[32mINFO    [0m root:requestsUtility.py:30 URL used for test is https://wapi-aqa-05.talech.com/v1/api/sso/callback?code=98765432099876543209987654
+[32mINFO    [0m root:requestsUtility.py:32 Status code: 422
+[32mINFO    [0m root:requestsUtility.py:49 Expected status code: 422 and actual status code: 422 
+[32mINFO    [0m root:test_web_be_api.py:23 {'message': 'The given data was invalid.', 'errors': {'code': ['The code must be at least 30 characters.']}, 'status': 422}

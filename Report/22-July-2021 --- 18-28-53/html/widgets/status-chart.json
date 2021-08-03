@@ -1,0 +1,21 @@
+[ {
+  "uid" : "89603601c78a9521",
+  "name" : "test_logout[argvals0]",
+  "time" : {
+    "start" : 1626992915013,
+    "stop" : 1626992930522,
+    "duration" : 15509
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f87e52a0a75b4cb6",
+  "name" : "test_login[argvals0]",
+  "time" : {
+    "start" : 1626992910114,
+    "stop" : 1626992914948,
+    "duration" : 4834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

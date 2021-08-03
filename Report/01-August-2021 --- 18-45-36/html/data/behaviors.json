@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "CBT-199 Login to atlassian",
+    "children" : [ {
+      "name" : "test_login[argvals0]",
+      "uid" : "c6a3373a4f971095",
+      "parentUid" : "cda4b8e375a9a8fd9506968ca9ffd882",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627857910793,
+        "stop" : 1627857917717,
+        "duration" : 6924
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Browser': 'chrome', 'Username': 'neeraj.sharma@talech.com', 'Password': 'VmlubnB2QDE5ODA='}" ]
+    }, {
+      "name" : "test_2",
+      "uid" : "b09f9b1717202c37",
+      "parentUid" : "cda4b8e375a9a8fd9506968ca9ffd882",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627857917845,
+        "stop" : 1627857917845,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_3",
+      "uid" : "e69d92133ff8ae9b",
+      "parentUid" : "cda4b8e375a9a8fd9506968ca9ffd882",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627857917849,
+        "stop" : 1627857917849,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cda4b8e375a9a8fd9506968ca9ffd882"
+  }, {
+    "name" : "CBT-200 Logout from atlassian",
+    "children" : [ {
+      "name" : "test_logout[argvals0]",
+      "uid" : "8c3a4d6517be9591",
+      "parentUid" : "1a4b4f620b95ecfcc2680d0fa9e5a505",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627857917853,
+        "stop" : 1627857933781,
+        "duration" : 15928
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Browser': 'Firefox', 'Username': 'neeraj.sharma@talech.com', 'Password': 'VmlubnB2QDE5ODA='}" ]
+    } ],
+    "uid" : "1a4b4f620b95ecfcc2680d0fa9e5a505"
+  } ]
+}

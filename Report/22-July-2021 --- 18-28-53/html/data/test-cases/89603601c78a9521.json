@@ -1,0 +1,428 @@
+{
+  "uid" : "89603601c78a9521",
+  "name" : "test_logout[argvals0]",
+  "fullName" : "test_web.test_logout.Test_logout#test_logout",
+  "historyId" : "e25146741d2531aa4d9ab84997c83ca4",
+  "time" : {
+    "start" : 1626992915013,
+    "stop" : 1626992930522,
+    "duration" : 15509
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: \u001B[93m\n\nassert_expectations() called at\u001B[0m\n\u001B[4m\u001B[94m\"/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_web/test_logout.py:27\"\u001B[0m\u001B[93m in test_logout()\n\n\u001B[91m\u001B[4mFailed Expectations : 2\n\u001B[0m\n1: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/pages/base.py:193\u001B[0m\u001B[91m\", in validate_title()\n\t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\tExpected Title: Log in to continue - Log in with Atlassian, Actual Title:Log in to continue - Log in with Atlassian account\u001B[0m\n            delayed_assert.expect(expectedTitle == actualTitle, f\"Expected Title: {expectedTitle}, Actual Title:{actualTitle}\")\n\n2: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/pages/base.py:211\u001B[0m\u001B[91m\", in validate_text()\n\t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\texpectedText: logintoyouaccount_xpath and actualText: Log in to your account not matching\u001B[0m\n            delayed_assert.expect(expectedText == actualText, f\"expectedText: {expectedText} and actualText: {actualText} not matching\")",
+  "statusTrace" : "self = <test_web.test_logout.Test_logout object at 0x10c1d9880>\nargvals = {'Browser': 'Firefox', 'Password': 'VmlubnB2QDE5ODA=', 'Runmode': 'Y', 'Username': 'neeraj.sharma@talech.com'}\n\n    @pytest.mark.webtest\n    @allure.story(\"CBT-200 Logout from atlassian\")\n    @pytest.mark.parametrize(\"argvals\", getcelldata(\"logoutTest\", constants.DATASHEETPATH ))\n    def test_logout(self, argvals):\n        yourworkobject = self.do_login(argvals['Browser'].lower(), argvals['Username'], argvals['Password'])\n        with allure.step(\"validating logout Page\"):\n            if pytest_check.is_instance(yourworkobject, YourworkPage):\n                self.do_logout(yourworkobject)\n                actualText = yourworkobject.get_text('logintoyouraccount_xpath')\n                yourworkobject.validate_title(yourworkobject.prop['logout_title'])\n                yourworkobject.validate_text(yourworkobject.prop['loginpagetext'], actualText)\n                logger.info(\"Your work Page opened\")\n            else:\n                logger.error(\"Your work page did not opened\")\n                logger.info(\"This is after all the assertions\")\n>       delayed_assert.assert_expectations()\n\ntest_logout.py:27: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def assert_expectations():\n        'raise an assert if there are any failed expectations'\n        if _failed_expectations:\n>           assert False, _report_failures()\nE           AssertionError: \u001B[93m\nE           \nE           assert_expectations() called at\u001B[0m\nE           \u001B[4m\u001B[94m\"/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_web/test_logout.py:27\"\u001B[0m\u001B[93m in test_logout()\nE           \nE           \u001B[91m\u001B[4mFailed Expectations : 2\nE           \u001B[0m\nE           1: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/pages/base.py:193\u001B[0m\u001B[91m\", in validate_title()\nE           \t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\tExpected Title: Log in to continue - Log in with Atlassian, Actual Title:Log in to continue - Log in with Atlassian account\u001B[0m\nE                       delayed_assert.expect(expectedTitle == actualTitle, f\"Expected Title: {expectedTitle}, Actual Title:{actualTitle}\")\nE           \nE           2: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/pages/base.py:211\u001B[0m\u001B[91m\", in validate_text()\nE           \t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\texpectedText: logintoyouaccount_xpath and actualText: Log in to your account not matching\u001B[0m\nE                       delayed_assert.expect(expectedText == actualText, f\"expectedText: {expectedText} and actualText: {actualText} not matching\")\n\n../../../../PycharmProjects/Framework_Web/venv_framework/lib/python3.8/site-packages/delayed_assert/delayed_assert.py:74: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_fixture",
+    "time" : {
+      "start" : 1626992915012,
+      "stop" : 1626992915012,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Base Fixture Setup",
+      "time" : {
+        "start" : 1626992915012,
+        "stop" : 1626992915012,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Finishing up",
+      "time" : {
+        "start" : 1626992915012,
+        "stop" : 1626992931113,
+        "duration" : 16101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: \u001B[93m\n\nassert_expectations() called at\u001B[0m\n\u001B[4m\u001B[94m\"/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_web/test_logout.py:27\"\u001B[0m\u001B[93m in test_logout()\n\n\u001B[91m\u001B[4mFailed Expectations : 2\n\u001B[0m\n1: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/pages/base.py:193\u001B[0m\u001B[91m\", in validate_title()\n\t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\tExpected Title: Log in to continue - Log in with Atlassian, Actual Title:Log in to continue - Log in with Atlassian account\u001B[0m\n            delayed_assert.expect(expectedTitle == actualTitle, f\"Expected Title: {expectedTitle}, Actual Title:{actualTitle}\")\n\n2: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/pages/base.py:211\u001B[0m\u001B[91m\", in validate_text()\n\t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\texpectedText: logintoyouaccount_xpath and actualText: Log in to your account not matching\u001B[0m\n            delayed_assert.expect(expectedText == actualText, f\"expectedText: {expectedText} and actualText: {actualText} not matching\")",
+    "statusTrace" : "self = <test_web.test_logout.Test_logout object at 0x10c1d9880>\nargvals = {'Browser': 'Firefox', 'Password': 'VmlubnB2QDE5ODA=', 'Runmode': 'Y', 'Username': 'neeraj.sharma@talech.com'}\n\n    @pytest.mark.webtest\n    @allure.story(\"CBT-200 Logout from atlassian\")\n    @pytest.mark.parametrize(\"argvals\", getcelldata(\"logoutTest\", constants.DATASHEETPATH ))\n    def test_logout(self, argvals):\n        yourworkobject = self.do_login(argvals['Browser'].lower(), argvals['Username'], argvals['Password'])\n        with allure.step(\"validating logout Page\"):\n            if pytest_check.is_instance(yourworkobject, YourworkPage):\n                self.do_logout(yourworkobject)\n                actualText = yourworkobject.get_text('logintoyouraccount_xpath')\n                yourworkobject.validate_title(yourworkobject.prop['logout_title'])\n                yourworkobject.validate_text(yourworkobject.prop['loginpagetext'], actualText)\n                logger.info(\"Your work Page opened\")\n            else:\n                logger.error(\"Your work page did not opened\")\n                logger.info(\"This is after all the assertions\")\n>       delayed_assert.assert_expectations()\n\ntest_logout.py:27: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def assert_expectations():\n        'raise an assert if there are any failed expectations'\n        if _failed_expectations:\n>           assert False, _report_failures()\nE           AssertionError: \u001B[93m\nE           \nE           assert_expectations() called at\u001B[0m\nE           \u001B[4m\u001B[94m\"/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_web/test_logout.py:27\"\u001B[0m\u001B[93m in test_logout()\nE           \nE           \u001B[91m\u001B[4mFailed Expectations : 2\nE           \u001B[0m\nE           1: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/pages/base.py:193\u001B[0m\u001B[91m\", in validate_title()\nE           \t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\tExpected Title: Log in to continue - Log in with Atlassian, Actual Title:Log in to continue - Log in with Atlassian account\u001B[0m\nE                       delayed_assert.expect(expectedTitle == actualTitle, f\"Expected Title: {expectedTitle}, Actual Title:{actualTitle}\")\nE           \nE           2: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/pages/base.py:211\u001B[0m\u001B[91m\", in validate_text()\nE           \t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\texpectedText: logintoyouaccount_xpath and actualText: Log in to your account not matching\u001B[0m\nE                       delayed_assert.expect(expectedText == actualText, f\"expectedText: {expectedText} and actualText: {actualText} not matching\")\n\n../../../../PycharmProjects/Framework_Web/venv_framework/lib/python3.8/site-packages/delayed_assert/delayed_assert.py:74: AssertionError",
+    "steps" : [ {
+      "name" : "Performing login to the Application",
+      "time" : {
+        "start" : 1626992915013,
+        "stop" : 1626992920443,
+        "duration" : 5430
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Opening Browser firefox",
+        "time" : {
+          "start" : 1626992915013,
+          "stop" : 1626992917444,
+          "duration" : 2431
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Navigating to https://talech.atlassian.net/",
+        "time" : {
+          "start" : 1626992917444,
+          "stop" : 1626992918929,
+          "duration" : 1485
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a139354a37b2d70",
+          "name" : "Screen shot taken at: 2021-07-22 18:28:38.928143",
+          "source" : "a139354a37b2d70.png",
+          "type" : "image/png",
+          "size" : 85515
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Enter data on locator: username_xpath",
+        "time" : {
+          "start" : 1626992918961,
+          "stop" : 1626992919348,
+          "duration" : 387
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Clicking on; continue_xpath",
+        "time" : {
+          "start" : 1626992919349,
+          "stop" : 1626992919826,
+          "duration" : 477
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3de1a32be0035d06",
+          "name" : "Screen shot taken at: 2021-07-22 18:28:39.825705",
+          "source" : "3de1a32be0035d06.png",
+          "type" : "image/png",
+          "size" : 89157
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Enter data on locator: password_xpath",
+        "time" : {
+          "start" : 1626992919826,
+          "stop" : 1626992919948,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Clicking on; login_xpath",
+        "time" : {
+          "start" : 1626992919948,
+          "stop" : 1626992920443,
+          "duration" : 495
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3fbfaa8adea14edd",
+          "name" : "Screen shot taken at: 2021-07-22 18:28:40.442781",
+          "source" : "3fbfaa8adea14edd.png",
+          "type" : "image/png",
+          "size" : 85739
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "validating logout Page",
+      "time" : {
+        "start" : 1626992920443,
+        "stop" : 1626992930521,
+        "duration" : 10078
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Performing Logout function",
+        "time" : {
+          "start" : 1626992920443,
+          "stop" : 1626992928697,
+          "duration" : 8254
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Clicking on; user_xpath",
+          "time" : {
+            "start" : 1626992920454,
+            "stop" : 1626992927379,
+            "duration" : 6925
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "957c027a0f6c337c",
+            "name" : "Screen shot taken at: 2021-07-22 18:28:47.378623",
+            "source" : "957c027a0f6c337c.png",
+            "type" : "image/png",
+            "size" : 121564
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Clicking on; logout_xpath",
+          "time" : {
+            "start" : 1626992927379,
+            "stop" : 1626992928325,
+            "duration" : 946
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "b682c70b530d943d",
+            "name" : "Screen shot taken at: 2021-07-22 18:28:48.324651",
+            "source" : "b682c70b530d943d.png",
+            "type" : "image/png",
+            "size" : 121830
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Clicking on; logoutbutton_xpath",
+          "time" : {
+            "start" : 1626992928325,
+            "stop" : 1626992928697,
+            "duration" : 372
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "ea1ce84526dcf530",
+            "name" : "Screen shot taken at: 2021-07-22 18:28:48.696915",
+            "source" : "ea1ce84526dcf530.png",
+            "type" : "image/png",
+            "size" : 7555
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Get text present on locator: logintoyouraccount_xpath",
+        "time" : {
+          "start" : 1626992928697,
+          "stop" : 1626992930506,
+          "duration" : 1809
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Validating expected title Log in to continue - Log in with Atlassian",
+        "time" : {
+          "start" : 1626992930513,
+          "stop" : 1626992930517,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Validating text logintoyouaccount_xpath vs Log in to your account",
+        "time" : {
+          "start" : 1626992930517,
+          "stop" : 1626992930520,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f66697250c74fb",
+      "name" : "log",
+      "source" : "f66697250c74fb.txt",
+      "type" : "text/plain",
+      "size" : 302
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "base_fixture::0",
+    "time" : {
+      "start" : 1626992930531,
+      "stop" : 1626992931113,
+      "duration" : 582
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Quiting Browser",
+      "time" : {
+        "start" : 1626992930531,
+        "stop" : 1626992931113,
+        "duration" : 582
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "CBT-200 Logout from atlassian"
+  }, {
+    "name" : "tag",
+    "value" : "webtest"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('base_fixture')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_web"
+  }, {
+    "name" : "suite",
+    "value" : "test_logout"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_logout"
+  }, {
+    "name" : "host",
+    "value" : "neerajs-mbp-2.lan"
+  }, {
+    "name" : "thread",
+    "value" : "33993-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_web.test_logout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "argvals",
+    "value" : "{'Runmode': 'Y', 'Browser': 'Firefox', 'Username': 'neeraj.sharma@talech.com', 'Password': 'VmlubnB2QDE5ODA='}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('base_fixture')", "webtest" ]
+  },
+  "source" : "89603601c78a9521.json",
+  "parameterValues" : [ "{'Runmode': 'Y', 'Browser': 'Firefox', 'Username': 'neeraj.sharma@talech.com', 'Password': 'VmlubnB2QDE5ODA='}" ]
+}

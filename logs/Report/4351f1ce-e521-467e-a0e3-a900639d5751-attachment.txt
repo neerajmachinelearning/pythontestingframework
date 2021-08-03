@@ -1,0 +1,2 @@
+This is objeclist 0 : <pages.base.Base object at 0x11020b250>
+inside if statement

@@ -1,0 +1,90 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "KeyError: 'ExpectedMessage'",
+      "children" : [ {
+        "name" : "test_redirct_callback_url[argvals1]",
+        "uid" : "fc9fd980c4dff5a1",
+        "parentUid" : "bf3e7b4e7c7dc8baea2d24f21ac65301",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626840956475,
+          "stop" : 1626840956643,
+          "duration" : 168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/sso/callback', 'Code': '98765432099876543209987654', 'ExpectedStatusCode': 422.0, 'ExpectedError': 'The code must be at least 30 characters.'}" ]
+      }, {
+        "name" : "test_redirct_callback_url[argvals3]",
+        "uid" : "d4589c52e52a51fd",
+        "parentUid" : "bf3e7b4e7c7dc8baea2d24f21ac65301",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626840956953,
+          "stop" : 1626840957125,
+          "duration" : 172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/sso/callback', 'Code': '', 'ExpectedStatusCode': 422.0, 'ExpectedError': 'The code field is required.'}" ]
+      } ],
+      "uid" : "bf3e7b4e7c7dc8baea2d24f21ac65301"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: \u001B[93m\n\nassert_expectations() called at\u001B[0m\n\u001B[4m\u001B[94m\"/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_api/test_web_be_api.py:32\"\u001B[0m\u001B[93m in test_web_be_api_url()\n\n\u001B[91m\u001B[4mFailed Expectations : 1\n\u001B[0m\n1: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_api/test_web_be_api.py:29\u001B[0m\u001B[91m\", in test_web_be_api_url()\n\t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\tExpected message: Ok and actual message: OK not matching\u001B[0m\n            delayed_assert.expect(argvals['ExpectedMessage'] == rs_json['message'],",
+      "children" : [ {
+        "name" : "test_web_be_api_url[argvals0]",
+        "uid" : "1835e50a02517687",
+        "parentUid" : "c4dd5aebb62db224c6a5e4f5b493994e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626840957132,
+          "stop" : 1626840957378,
+          "duration" : 246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/callback', 'Code': '9876543209987654320998765432099876543209', 'ExpectedStatusCode': 200.0, 'ExpectedMessage': 'Ok'}" ]
+      }, {
+        "name" : "test_web_be_api_url[argvals2]",
+        "uid" : "5119571ff71bedaf",
+        "parentUid" : "c4dd5aebb62db224c6a5e4f5b493994e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626840957604,
+          "stop" : 1626840957832,
+          "duration" : 228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/callback', 'Code': '087698769876987698769876123456', 'ExpectedStatusCode': 200.0, 'ExpectedMessage': 'Ok'}" ]
+      } ],
+      "uid" : "c4dd5aebb62db224c6a5e4f5b493994e"
+    }, {
+      "name" : "AssertionError: \u001B[93m\n\nassert_expectations() called at\u001B[0m\n\u001B[4m\u001B[94m\"/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_api/test_web_be_api.py:32\"\u001B[0m\u001B[93m in test_web_be_api_url()\n\n\u001B[91m\u001B[4mFailed Expectations : 1\n\u001B[0m\n1: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_api/test_web_be_api.py:29\u001B[0m\u001B[91m\", in test_web_be_api_url()\n\t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\tExpected message: The code field is required. and actual message: The given data was invalid. not matching\u001B[0m\n            delayed_assert.expect(argvals['ExpectedMessage'] == rs_json['message'],",
+      "children" : [ {
+        "name" : "test_web_be_api_url[argvals3]",
+        "uid" : "30ff01edd58d4e64",
+        "parentUid" : "278073d119bc83b2b0a2066affa1a304",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626840957841,
+          "stop" : 1626840958089,
+          "duration" : 248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/callback', 'Code': '', 'ExpectedStatusCode': 422.0, 'ExpectedMessage': 'The code field is required.'}" ]
+      } ],
+      "uid" : "278073d119bc83b2b0a2066affa1a304"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

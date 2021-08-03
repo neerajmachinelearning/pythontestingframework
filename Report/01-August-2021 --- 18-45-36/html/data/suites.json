@@ -1,0 +1,77 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_web",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "Test_Login",
+        "children" : [ {
+          "name" : "test_login[argvals0]",
+          "uid" : "c6a3373a4f971095",
+          "parentUid" : "6cf8ba851111cd51753c6d379f11ff3f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1627857910793,
+            "stop" : 1627857917717,
+            "duration" : 6924
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'Runmode': 'Y', 'Browser': 'chrome', 'Username': 'neeraj.sharma@talech.com', 'Password': 'VmlubnB2QDE5ODA='}" ]
+        }, {
+          "name" : "test_2",
+          "uid" : "b09f9b1717202c37",
+          "parentUid" : "6cf8ba851111cd51753c6d379f11ff3f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1627857917845,
+            "stop" : 1627857917845,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_3",
+          "uid" : "e69d92133ff8ae9b",
+          "parentUid" : "6cf8ba851111cd51753c6d379f11ff3f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1627857917849,
+            "stop" : 1627857917849,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6cf8ba851111cd51753c6d379f11ff3f"
+      } ],
+      "uid" : "5e5a36f9c17c5b7a09c53e1a335d9de9"
+    }, {
+      "name" : "test_logout",
+      "children" : [ {
+        "name" : "Test_logout",
+        "children" : [ {
+          "name" : "test_logout[argvals0]",
+          "uid" : "8c3a4d6517be9591",
+          "parentUid" : "73051ea8e456af8137d4e5582f3b84f0",
+          "status" : "failed",
+          "time" : {
+            "start" : 1627857917853,
+            "stop" : 1627857933781,
+            "duration" : 15928
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'Runmode': 'Y', 'Browser': 'Firefox', 'Username': 'neeraj.sharma@talech.com', 'Password': 'VmlubnB2QDE5ODA='}" ]
+        } ],
+        "uid" : "73051ea8e456af8137d4e5582f3b84f0"
+      } ],
+      "uid" : "5a77ff0785f7dd2de2b5d23760a64756"
+    } ],
+    "uid" : "0189b198004bb7cdf5bc4251c43c0db4"
+  } ]
+}

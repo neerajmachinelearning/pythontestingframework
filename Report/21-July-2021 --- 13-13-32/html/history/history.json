@@ -1,0 +1,166 @@
+{
+  "6b324661b693b901d5c05bb8568f1b5c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c945c6b6bca88cdd",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/c945c6b6bca88cdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626887608209,
+        "stop" : 1626887608872,
+        "duration" : 663
+      }
+    } ]
+  },
+  "795789f08f950741430813bc89cb26a6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c83d3bf846f5c5b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/6c83d3bf846f5c5b",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'message' referenced before assignment",
+      "time" : {
+        "start" : 1626887609605,
+        "stop" : 1626887609855,
+        "duration" : 250
+      }
+    } ]
+  },
+  "a6f797be131751cfcc325b8336c05209" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5c458bb96301d1b6",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/5c458bb96301d1b6",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'message' referenced before assignment",
+      "time" : {
+        "start" : 1626887610085,
+        "stop" : 1626887610339,
+        "duration" : 254
+      }
+    } ]
+  },
+  "89f876471e1207d7dd5d0d5127c3f52f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9e83a045876f47f",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/f9e83a045876f47f",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'code' referenced before assignment",
+      "time" : {
+        "start" : 1626887609866,
+        "stop" : 1626887610078,
+        "duration" : 212
+      }
+    } ]
+  },
+  "55411a621b861c0002a314d4cbaad222" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c55994ca3e15edd3",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/c55994ca3e15edd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626887609430,
+        "stop" : 1626887609601,
+        "duration" : 171
+      }
+    } ]
+  },
+  "1c375761f674db1ff5a6ad4b2d39b428" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2ff2c6dc95f156d",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b2ff2c6dc95f156d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626887609090,
+        "stop" : 1626887609426,
+        "duration" : 336
+      }
+    } ]
+  },
+  "c777656995fd71507a871980b6ed0bbc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a806a1fe59a73457",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a806a1fe59a73457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626887608876,
+        "stop" : 1626887609086,
+        "duration" : 210
+      }
+    } ]
+  },
+  "e7fa5538189f939db2d2a7adb6439db5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2d729a1a12adf79",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/a2d729a1a12adf79",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'code' referenced before assignment",
+      "time" : {
+        "start" : 1626887610346,
+        "stop" : 1626887610622,
+        "duration" : 276
+      }
+    } ]
+  }
+}

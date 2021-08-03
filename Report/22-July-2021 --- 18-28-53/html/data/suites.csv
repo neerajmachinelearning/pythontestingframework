@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Jul 22 18:28:35 EDT 2021","Thu Jul 22 18:28:50 EDT 2021","15509","test_web","test_logout","Test_logout","","","test_logout[argvals0]",""
+"passed","Thu Jul 22 18:28:30 EDT 2021","Thu Jul 22 18:28:34 EDT 2021","4834","test_web","test_login","Test_Login","","","test_login[argvals0]",""

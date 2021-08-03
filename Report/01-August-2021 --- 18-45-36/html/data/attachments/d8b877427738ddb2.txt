@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_login.py:31 Inside test_3

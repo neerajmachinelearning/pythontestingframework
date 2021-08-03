@@ -1,0 +1,9 @@
+virtualenv
+allure-pytest
+pytest-check
+xlrd3
+selenium
+pyjavaproperties
+pytest
+webdriver-manager
+softest

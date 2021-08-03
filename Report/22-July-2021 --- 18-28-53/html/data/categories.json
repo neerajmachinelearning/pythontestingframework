@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: \u001B[93m\n\nassert_expectations() called at\u001B[0m\n\u001B[4m\u001B[94m\"/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_web/test_logout.py:27\"\u001B[0m\u001B[93m in test_logout()\n\n\u001B[91m\u001B[4mFailed Expectations : 2\n\u001B[0m\n1: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/pages/base.py:193\u001B[0m\u001B[91m\", in validate_title()\n\t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\tExpected Title: Log in to continue - Log in with Atlassian, Actual Title:Log in to continue - Log in with Atlassian account\u001B[0m\n            delayed_assert.expect(expectedTitle == actualTitle, f\"Expected Title: {expectedTitle}, Actual Title:{actualTitle}\")\n\n2: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/pages/base.py:211\u001B[0m\u001B[91m\", in validate_text()\n\t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\texpectedText: logintoyouaccount_xpath and actualText: Log in to your account not matching\u001B[0m\n            delayed_assert.expect(expectedText == actualText, f\"expectedText: {expectedText} and actualText: {actualText} not matching\")",
+      "children" : [ {
+        "name" : "test_logout[argvals0]",
+        "uid" : "89603601c78a9521",
+        "parentUid" : "b6d4681d2cc2b4d3b28c906aea0900ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626992915013,
+          "stop" : 1626992930522,
+          "duration" : 15509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'Runmode': 'Y', 'Browser': 'Firefox', 'Username': 'neeraj.sharma@talech.com', 'Password': 'VmlubnB2QDE5ODA='}" ]
+      } ],
+      "uid" : "b6d4681d2cc2b4d3b28c906aea0900ae"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

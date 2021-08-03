@@ -1,0 +1,20 @@
+1627857919402	geckodriver	INFO	Listening on 127.0.0.1:56164
+1627857920315	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/5z/nh8ppv4x78n5gd_h20sfg70m0000gn/T/rust_mozprofileuWBeAs"
+1627857920817	Marionette	INFO	Marionette enabled
+2021-08-01 18:45:21.508 firefox-bin[86910:6106252] Warning: Expected min height of view: (<NSButton: 0x12a769800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-08-01 18:45:21.509 firefox-bin[86910:6106252] Warning: Expected min height of view: (<NSButton: 0x135fcfc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-08-01 18:45:21.509 firefox-bin[86910:6106252] Warning: Expected min height of view: (<NSButton: 0x135fd6c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-08-01 18:45:21.510 firefox-bin[86910:6106252] Warning: Expected min height of view: (<NSButton: 0x135fd0c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-08-01 18:45:21.510 firefox-bin[86910:6106252] Warning: Expected min height of view: (<NSButton: 0x135fd1400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-08-01 18:45:21.511 firefox-bin[86910:6106252] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x135fd0400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-08-01 18:45:21.511 firefox-bin[86910:6106252] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x128b49400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/5z/nh8ppv4x78n5gd_h20sfg70m0000gn/T/rust_mozprofileuWBeAs/search.json.mozlz4", (void 0)))
+1627857922516	Marionette	INFO	Listening on port 56175
+1627857922615	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://jira-frontend-static.prod.public.atl-paas.net/assets-brotli/async-extensible-search-dialog.4445471ef9acaf4bab10.8.js, line 0: Successfully compiled asm.js code (total compilation time 11ms)
+JavaScript warning: https://jira-frontend-static.prod.public.atl-paas.net/assets-brotli/async-issue-app~vendor.912dfdaa70ea352f7392.8.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://d8baqcx46fbgi.cloudfront.net/atl-vertigo--shard-jira-prod-us-12--3--jres.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/r5gghz/b/3/8014cbd25ccf2a343d6b8872764a5ce5/_/download/contextbatch/js/jira.create.issue,-jira.heritage/batch.js?feature-kirigami-safer-load-bridge-api=true&feature-kirigami-wrm-require-client-rewrite=true&jag=true&locale=en-US, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1627857933793	Marionette	INFO	Stopped listening on port 56175
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

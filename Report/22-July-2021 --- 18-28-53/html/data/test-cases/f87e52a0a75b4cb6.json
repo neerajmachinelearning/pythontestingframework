@@ -1,0 +1,312 @@
+{
+  "uid" : "f87e52a0a75b4cb6",
+  "name" : "test_login[argvals0]",
+  "fullName" : "test_web.test_login.Test_Login#test_login",
+  "historyId" : "d589301294c3829fa23c3ca6a3a4c3ab",
+  "time" : {
+    "start" : 1626992910114,
+    "stop" : 1626992914948,
+    "duration" : 4834
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_fixture",
+    "time" : {
+      "start" : 1626992910110,
+      "stop" : 1626992910111,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Base Fixture Setup",
+      "time" : {
+        "start" : 1626992910110,
+        "stop" : 1626992910111,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Finishing up",
+      "time" : {
+        "start" : 1626992910111,
+        "stop" : 1626992915009,
+        "duration" : 4898
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Performing login to the Application",
+      "time" : {
+        "start" : 1626992910114,
+        "stop" : 1626992914829,
+        "duration" : 4715
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Opening Browser chrome",
+        "time" : {
+          "start" : 1626992910114,
+          "stop" : 1626992911632,
+          "duration" : 1518
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Navigating to https://talech.atlassian.net/",
+        "time" : {
+          "start" : 1626992911632,
+          "stop" : 1626992913374,
+          "duration" : 1742
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "69740c2d729facac",
+          "name" : "Screen shot taken at: 2021-07-22 18:28:33.373311",
+          "source" : "69740c2d729facac.png",
+          "type" : "image/png",
+          "size" : 81262
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Enter data on locator: username_xpath",
+        "time" : {
+          "start" : 1626992913397,
+          "stop" : 1626992913800,
+          "duration" : 403
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Clicking on; continue_xpath",
+        "time" : {
+          "start" : 1626992913800,
+          "stop" : 1626992914193,
+          "duration" : 393
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fe0472bb2a3fc33e",
+          "name" : "Screen shot taken at: 2021-07-22 18:28:34.192865",
+          "source" : "fe0472bb2a3fc33e.png",
+          "type" : "image/png",
+          "size" : 82522
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Enter data on locator: password_xpath",
+        "time" : {
+          "start" : 1626992914193,
+          "stop" : 1626992914378,
+          "duration" : 185
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Clicking on; login_xpath",
+        "time" : {
+          "start" : 1626992914378,
+          "stop" : 1626992914829,
+          "duration" : 451
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "469b37a2477a1059",
+          "name" : "Screen shot taken at: 2021-07-22 18:28:34.828485",
+          "source" : "469b37a2477a1059.png",
+          "type" : "image/png",
+          "size" : 83965
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Validating login page",
+      "time" : {
+        "start" : 1626992914829,
+        "stop" : 1626992914947,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Validating expected title Log in to continue - Log in with Atlassian account",
+        "time" : {
+          "start" : 1626992914862,
+          "stop" : 1626992914947,
+          "duration" : 85
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "473208add7cff0a2",
+      "name" : "log",
+      "source" : "473208add7cff0a2.txt",
+      "type" : "text/plain",
+      "size" : 184
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "base_fixture::0",
+    "time" : {
+      "start" : 1626992914951,
+      "stop" : 1626992915009,
+      "duration" : 58
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Quiting Browser",
+      "time" : {
+        "start" : 1626992914951,
+        "stop" : 1626992915009,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "CBT-199 Login to atlassian"
+  }, {
+    "name" : "tag",
+    "value" : "webtest"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('base_fixture')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_web"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login"
+  }, {
+    "name" : "host",
+    "value" : "neerajs-mbp-2.lan"
+  }, {
+    "name" : "thread",
+    "value" : "33993-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_web.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "argvals",
+    "value" : "{'Runmode': 'Y', 'Browser': 'chrome', 'Username': 'neeraj.sharma@talech.com', 'Password': 'VmlubnB2QDE5ODA='}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('base_fixture')", "webtest" ]
+  },
+  "source" : "f87e52a0a75b4cb6.json",
+  "parameterValues" : [ "{'Runmode': 'Y', 'Browser': 'chrome', 'Username': 'neeraj.sharma@talech.com', 'Password': 'VmlubnB2QDE5ODA='}" ]
+}

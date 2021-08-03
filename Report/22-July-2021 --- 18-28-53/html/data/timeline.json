@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "neerajs-mbp-2.lan",
+    "children" : [ {
+      "name" : "33993-MainThread",
+      "children" : [ {
+        "name" : "test_logout[argvals0]",
+        "uid" : "89603601c78a9521",
+        "parentUid" : "39f6e85e8c46b257d383ea6035fc9ac2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626992915013,
+          "stop" : 1626992930522,
+          "duration" : 15509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'Runmode': 'Y', 'Browser': 'Firefox', 'Username': 'neeraj.sharma@talech.com', 'Password': 'VmlubnB2QDE5ODA='}" ]
+      }, {
+        "name" : "test_login[argvals0]",
+        "uid" : "f87e52a0a75b4cb6",
+        "parentUid" : "39f6e85e8c46b257d383ea6035fc9ac2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626992910114,
+          "stop" : 1626992914948,
+          "duration" : 4834
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'Runmode': 'Y', 'Browser': 'chrome', 'Username': 'neeraj.sharma@talech.com', 'Password': 'VmlubnB2QDE5ODA='}" ]
+      } ],
+      "uid" : "39f6e85e8c46b257d383ea6035fc9ac2"
+    } ],
+    "uid" : "0eeb9033a1ac3d31266ff1f763da89dc"
+  } ]
+}

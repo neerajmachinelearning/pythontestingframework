@@ -1,0 +1,129 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_api",
+    "children" : [ {
+      "name" : "test_redirect_callback_url",
+      "children" : [ {
+        "name" : "Test_Redirect_Callback_URL",
+        "children" : [ {
+          "name" : "test_redirct_callback_url[argvals0]",
+          "uid" : "646098529c46ca32",
+          "parentUid" : "709be6c46e3985bc18587708ba4b7e12",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626842359445,
+            "stop" : 1626842359895,
+            "duration" : 450
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/sso/callback', 'Code': '9876543209987654320998765432099876543209', 'ExpectedStatusCode': 302.0, 'ExpectedMessage': 'No Message'}" ]
+        }, {
+          "name" : "test_redirct_callback_url[argvals1]",
+          "uid" : "cba02be1646c6e70",
+          "parentUid" : "709be6c46e3985bc18587708ba4b7e12",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626842359899,
+            "stop" : 1626842360062,
+            "duration" : 163
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/sso/callback', 'Code': '98765432099876543209987654', 'ExpectedStatusCode': 422.0, 'ExpectedMessage': 'The code must be at least 30 characters.'}" ]
+        }, {
+          "name" : "test_redirct_callback_url[argvals2]",
+          "uid" : "f1a70b995fbad294",
+          "parentUid" : "709be6c46e3985bc18587708ba4b7e12",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626842360066,
+            "stop" : 1626842360366,
+            "duration" : 300
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/sso/callback', 'Code': '087698769876987698769876123456', 'ExpectedStatusCode': 302.0, 'ExpectedMessage': 'No Message'}" ]
+        }, {
+          "name" : "test_redirct_callback_url[argvals3]",
+          "uid" : "58e1bf7fb73cb17c",
+          "parentUid" : "709be6c46e3985bc18587708ba4b7e12",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626842360370,
+            "stop" : 1626842360541,
+            "duration" : 171
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/sso/callback', 'Code': '', 'ExpectedStatusCode': 422.0, 'ExpectedMessage': 'The code field is required.'}" ]
+        } ],
+        "uid" : "709be6c46e3985bc18587708ba4b7e12"
+      } ],
+      "uid" : "5adcbdb56cdfb0c255a07915c0a449f6"
+    }, {
+      "name" : "test_web_be_api",
+      "children" : [ {
+        "name" : "Test_Web_BE_URL",
+        "children" : [ {
+          "name" : "test_web_be_api_url[argvals0]",
+          "uid" : "a21019f5e91cf426",
+          "parentUid" : "e630fdb6c9414d7b950786db8e3e1f9b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1626842360545,
+            "stop" : 1626842360770,
+            "duration" : 225
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/callback', 'Code': '9876543209987654320998765432099876543209', 'ExpectedStatusCode': 200.0, 'ExpectedMessage': 'Ok'}" ]
+        }, {
+          "name" : "test_web_be_api_url[argvals1]",
+          "uid" : "1271e5256067519b",
+          "parentUid" : "e630fdb6c9414d7b950786db8e3e1f9b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626842360783,
+            "stop" : 1626842360990,
+            "duration" : 207
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/callback', 'Code': '98765432099876543209987654', 'ExpectedStatusCode': 422.0, 'ExpectedMessage': 'The given data was invalid.'}" ]
+        }, {
+          "name" : "test_web_be_api_url[argvals2]",
+          "uid" : "313435dafc39bc21",
+          "parentUid" : "e630fdb6c9414d7b950786db8e3e1f9b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1626842360994,
+            "stop" : 1626842361234,
+            "duration" : 240
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/callback', 'Code': '087698769876987698769876123456', 'ExpectedStatusCode': 200.0, 'ExpectedMessage': 'Ok'}" ]
+        }, {
+          "name" : "test_web_be_api_url[argvals3]",
+          "uid" : "f569a4f9c3ae117a",
+          "parentUid" : "e630fdb6c9414d7b950786db8e3e1f9b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1626842361243,
+            "stop" : 1626842361476,
+            "duration" : 233
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/callback', 'Code': '', 'ExpectedStatusCode': 422.0, 'ExpectedMessage': 'The code field is required.'}" ]
+        } ],
+        "uid" : "e630fdb6c9414d7b950786db8e3e1f9b"
+      } ],
+      "uid" : "551066539b30bce70e714fd33ad7390b"
+    } ],
+    "uid" : "1909346d716315b605b14bcb10204a8d"
+  } ]
+}

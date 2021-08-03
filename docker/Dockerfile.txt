@@ -1,0 +1,7 @@
+FROM python:3.9.6
+
+ADD testreporting.py /
+
+RUN pip install selenium
+
+CMD [ "python3", "./testreporting.py" ]

@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "CBT-199 Login to atlassian",
+    "children" : [ {
+      "name" : "test_login[argvals0]",
+      "uid" : "f87e52a0a75b4cb6",
+      "parentUid" : "cda4b8e375a9a8fd9506968ca9ffd882",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626992910114,
+        "stop" : 1626992914948,
+        "duration" : 4834
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Browser': 'chrome', 'Username': 'neeraj.sharma@talech.com', 'Password': 'VmlubnB2QDE5ODA='}" ]
+    } ],
+    "uid" : "cda4b8e375a9a8fd9506968ca9ffd882"
+  }, {
+    "name" : "CBT-200 Logout from atlassian",
+    "children" : [ {
+      "name" : "test_logout[argvals0]",
+      "uid" : "89603601c78a9521",
+      "parentUid" : "1a4b4f620b95ecfcc2680d0fa9e5a505",
+      "status" : "failed",
+      "time" : {
+        "start" : 1626992915013,
+        "stop" : 1626992930522,
+        "duration" : 15509
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Browser': 'Firefox', 'Username': 'neeraj.sharma@talech.com', 'Password': 'VmlubnB2QDE5ODA='}" ]
+    } ],
+    "uid" : "1a4b4f620b95ecfcc2680d0fa9e5a505"
+  } ]
+}

@@ -1,0 +1,4 @@
+[32mINFO    [0m root:base.py:36 Running in Grid
+[32mINFO    [0m root:yourwork_page.py:11 yourwork Page Title - Log in to continue - Log in with Atlassian account
+[32mINFO    [0m root:yourwork_page.py:15 Logging out from yourwork page
+[32mINFO    [0m root:test_logout.py:23 Your work Page opened

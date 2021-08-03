@@ -1,0 +1,117 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "CBT-301 Redirect Callback URL testing",
+    "children" : [ {
+      "name" : "test_redirct_callback_url[argvals0]",
+      "uid" : "7faa99cef478616f",
+      "parentUid" : "126774a63fc978401d3d45c0aefd46bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626840955884,
+        "stop" : 1626840956471,
+        "duration" : 587
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/sso/callback', 'Code': '9876543209987654320998765432099876543209', 'ExpectedStatusCode': 302.0, 'ExpectedError': 'No Message'}" ]
+    }, {
+      "name" : "test_redirct_callback_url[argvals1]",
+      "uid" : "fc9fd980c4dff5a1",
+      "parentUid" : "126774a63fc978401d3d45c0aefd46bb",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626840956475,
+        "stop" : 1626840956643,
+        "duration" : 168
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/sso/callback', 'Code': '98765432099876543209987654', 'ExpectedStatusCode': 422.0, 'ExpectedError': 'The code must be at least 30 characters.'}" ]
+    }, {
+      "name" : "test_redirct_callback_url[argvals2]",
+      "uid" : "ba3964ba9eb5a775",
+      "parentUid" : "126774a63fc978401d3d45c0aefd46bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626840956655,
+        "stop" : 1626840956949,
+        "duration" : 294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/sso/callback', 'Code': '087698769876987698769876123456', 'ExpectedStatusCode': 302.0, 'ExpectedError': 'No Message'}" ]
+    }, {
+      "name" : "test_redirct_callback_url[argvals3]",
+      "uid" : "d4589c52e52a51fd",
+      "parentUid" : "126774a63fc978401d3d45c0aefd46bb",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626840956953,
+        "stop" : 1626840957125,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/sso/callback', 'Code': '', 'ExpectedStatusCode': 422.0, 'ExpectedError': 'The code field is required.'}" ]
+    } ],
+    "uid" : "126774a63fc978401d3d45c0aefd46bb"
+  }, {
+    "name" : "CBT-303 Web BE API testing",
+    "children" : [ {
+      "name" : "test_web_be_api_url[argvals0]",
+      "uid" : "1835e50a02517687",
+      "parentUid" : "ca6b9a37b832749ca350befb2a8db5e9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1626840957132,
+        "stop" : 1626840957378,
+        "duration" : 246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/callback', 'Code': '9876543209987654320998765432099876543209', 'ExpectedStatusCode': 200.0, 'ExpectedMessage': 'Ok'}" ]
+    }, {
+      "name" : "test_web_be_api_url[argvals1]",
+      "uid" : "f53be608eb2c45c7",
+      "parentUid" : "ca6b9a37b832749ca350befb2a8db5e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626840957387,
+        "stop" : 1626840957600,
+        "duration" : 213
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/callback', 'Code': '98765432099876543209987654', 'ExpectedStatusCode': 422.0, 'ExpectedMessage': 'The given data was invalid.'}" ]
+    }, {
+      "name" : "test_web_be_api_url[argvals2]",
+      "uid" : "5119571ff71bedaf",
+      "parentUid" : "ca6b9a37b832749ca350befb2a8db5e9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1626840957604,
+        "stop" : 1626840957832,
+        "duration" : 228
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/callback', 'Code': '087698769876987698769876123456', 'ExpectedStatusCode': 200.0, 'ExpectedMessage': 'Ok'}" ]
+    }, {
+      "name" : "test_web_be_api_url[argvals3]",
+      "uid" : "30ff01edd58d4e64",
+      "parentUid" : "ca6b9a37b832749ca350befb2a8db5e9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1626840957841,
+        "stop" : 1626840958089,
+        "duration" : 248
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'Runmode': 'Y', 'Endpoint': '/v1/api/sso/callback', 'Code': '', 'ExpectedStatusCode': 422.0, 'ExpectedMessage': 'The code field is required.'}" ]
+    } ],
+    "uid" : "ca6b9a37b832749ca350befb2a8db5e9"
+  } ]
+}

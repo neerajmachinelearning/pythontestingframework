@@ -1,0 +1,5 @@
+[32mINFO    [0m root:test_redirect_callback_url.py:17 Inside test_redirect_callback_url function
+[32mINFO    [0m root:requestsUtility.py:30 URL used for test is https://web-aqa-05.talech.com/sso/callback?code=087698769876987698769876123456
+[32mINFO    [0m root:requestsUtility.py:32 Status code: 302
+[32mINFO    [0m root:requestsUtility.py:49 Expected status code: 302 and actual status code: 302 
+[32mINFO    [0m root:test_redirect_callback_url.py:24 After test_redirect_callback_url function

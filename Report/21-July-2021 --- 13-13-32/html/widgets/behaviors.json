@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "10cf6752e2677d8227747e736ded10b9",
+    "name" : "CT-22 Create a Endpoint to support forwarding callback URL to Web Be",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "6efbe5b0a1239145274fd55316333b37",
+    "name" : "CT-10 Implement SSO Callback route in old talech",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

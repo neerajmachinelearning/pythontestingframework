@@ -1,0 +1,83 @@
+{
+  "9bba17a1175886dc6cf7b52dc7ed64c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b09f9b1717202c37",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/b09f9b1717202c37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627857917845,
+        "stop" : 1627857917845,
+        "duration" : 0
+      }
+    } ]
+  },
+  "485d3f03b17d8d1c4f08f1595ddb45ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e69d92133ff8ae9b",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/e69d92133ff8ae9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627857917849,
+        "stop" : 1627857917849,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e25146741d2531aa4d9ab84997c83ca4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c3a4d6517be9591",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/8c3a4d6517be9591",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[93m\n\nassert_expectations() called at\u001B[0m\n\u001B[4m\u001B[94m\"/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_web/test_logout.py:27\"\u001B[0m\u001B[93m in test_logout()\n\n\u001B[91m\u001B[4mFailed Expectations : 2\n\u001B[0m\n1: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/pages/base.py:193\u001B[0m\u001B[91m\", in validate_title()\n\t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\tExpected Title: Log in to continue - Log in with Atlassian, Actual Title:Log in to continue - Log in with Atlassian account\u001B[0m\n            delayed_assert.expect(expectedTitle == actualTitle, f\"Expected Title: {expectedTitle}, Actual Title:{actualTitle}\")\n\n2: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/pages/base.py:211\u001B[0m\u001B[91m\", in validate_text()\n\t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\texpectedText: logintoyouaccount_xpath and actualText: Log in to your account not matching\u001B[0m\n            delayed_assert.expect(expectedText == actualText, f\"expectedText: {expectedText} and actualText: {actualText} not matching\")",
+      "time" : {
+        "start" : 1627857917853,
+        "stop" : 1627857933781,
+        "duration" : 15928
+      }
+    } ]
+  },
+  "d589301294c3829fa23c3ca6a3a4c3ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6a3373a4f971095",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/c6a3373a4f971095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627857910793,
+        "stop" : 1627857917717,
+        "duration" : 6924
+      }
+    } ]
+  }
+}

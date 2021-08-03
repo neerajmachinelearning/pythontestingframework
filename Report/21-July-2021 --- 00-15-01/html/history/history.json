@@ -1,0 +1,167 @@
+{
+  "6b324661b693b901d5c05bb8568f1b5c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81f75a64753398cd",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/81f75a64753398cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626840897577,
+        "stop" : 1626840897959,
+        "duration" : 382
+      }
+    } ]
+  },
+  "795789f08f950741430813bc89cb26a6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff5e599952f66e62",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/ff5e599952f66e62",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[93m\n\nassert_expectations() called at\u001B[0m\n\u001B[4m\u001B[94m\"/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_api/test_web_be_api.py:32\"\u001B[0m\u001B[93m in test_web_be_api_url()\n\n\u001B[91m\u001B[4mFailed Expectations : 1\n\u001B[0m\n1: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_api/test_web_be_api.py:29\u001B[0m\u001B[91m\", in test_web_be_api_url()\n\t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\tExpected message and actual message: OK not matching\u001B[0m\n            delayed_assert.expect(argvals['ExpectedMessage'] == rs_json['message'],",
+      "time" : {
+        "start" : 1626840898606,
+        "stop" : 1626840898816,
+        "duration" : 210
+      }
+    } ]
+  },
+  "a6f797be131751cfcc325b8336c05209" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3d8b3581592f6e5",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/c3d8b3581592f6e5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[93m\n\nassert_expectations() called at\u001B[0m\n\u001B[4m\u001B[94m\"/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_api/test_web_be_api.py:32\"\u001B[0m\u001B[93m in test_web_be_api_url()\n\n\u001B[91m\u001B[4mFailed Expectations : 1\n\u001B[0m\n1: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_api/test_web_be_api.py:29\u001B[0m\u001B[91m\", in test_web_be_api_url()\n\t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\tExpected message and actual message: OK not matching\u001B[0m\n            delayed_assert.expect(argvals['ExpectedMessage'] == rs_json['message'],",
+      "time" : {
+        "start" : 1626840899034,
+        "stop" : 1626840899259,
+        "duration" : 225
+      }
+    } ]
+  },
+  "89f876471e1207d7dd5d0d5127c3f52f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af518827dc5b6315",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/af518827dc5b6315",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626840898826,
+        "stop" : 1626840899030,
+        "duration" : 204
+      }
+    } ]
+  },
+  "55411a621b861c0002a314d4cbaad222" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3699b877488a2d0a",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/3699b877488a2d0a",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'ExpectedMessage'",
+      "time" : {
+        "start" : 1626840898440,
+        "stop" : 1626840898599,
+        "duration" : 159
+      }
+    } ]
+  },
+  "c777656995fd71507a871980b6ed0bbc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e55fc1d564d75c1",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/1e55fc1d564d75c1",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'ExpectedMessage'",
+      "time" : {
+        "start" : 1626840897964,
+        "stop" : 1626840898131,
+        "duration" : 167
+      }
+    } ]
+  },
+  "1c375761f674db1ff5a6ad4b2d39b428" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e88899ba6a1a3c9",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/8e88899ba6a1a3c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626840898142,
+        "stop" : 1626840898436,
+        "duration" : 294
+      }
+    } ]
+  },
+  "e7fa5538189f939db2d2a7adb6439db5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "997533071d39ac81",
+      "reportUrl" : "http://example.org/build#13/AllureReport/#testresult/997533071d39ac81",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[93m\n\nassert_expectations() called at\u001B[0m\n\u001B[4m\u001B[94m\"/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_api/test_web_be_api.py:32\"\u001B[0m\u001B[93m in test_web_be_api_url()\n\n\u001B[91m\u001B[4mFailed Expectations : 1\n\u001B[0m\n1: \u001B[91mFailed at \"\u001B[0m\u001B[94m\u001B[4m/Users/neerajsharma/AutomationProjects/IndependentAutomation/framework_webtesting/test_api/test_web_be_api.py:29\u001B[0m\u001B[91m\", in test_web_be_api_url()\n\t\u001B[1m\u001B[4mErrorMessage:\u001B[0m\u001B[91m\tExpected message and actual message: The given data was invalid. not matching\u001B[0m\n            delayed_assert.expect(argvals['ExpectedMessage'] == rs_json['message'],",
+      "time" : {
+        "start" : 1626840899266,
+        "stop" : 1626840899509,
+        "duration" : 243
+      }
+    } ]
+  }
+}

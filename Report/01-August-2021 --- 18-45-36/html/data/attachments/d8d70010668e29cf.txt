@@ -1,0 +1,15 @@
+[32mINFO    [0m root:base.py:58 Running from local
+[32mINFO    [0m WDM:logger.py:12 
+
+[32mINFO    [0m WDM:logger.py:12 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:12 Current firefox version is 89.0.2
+[32mINFO    [0m WDM:logger.py:12 Get LATEST driver version for 89.0.2
+[32mINFO    [0m WDM:logger.py:12 Get LATEST driver version for 89.0.2
+[32mINFO    [0m WDM:logger.py:12 Getting latest mozilla release info for v0.29.1
+[32mINFO    [0m WDM:logger.py:12 Get LATEST driver version for 89.0.2
+[32mINFO    [0m WDM:logger.py:12 Get LATEST driver version for 89.0.2
+[32mINFO    [0m WDM:logger.py:12 Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-macos.tar.gz
+[32mINFO    [0m WDM:logger.py:12 Driver has been saved in cache [/Users/neerajsharma/.wdm/drivers/geckodriver/macos/v0.29.1]
+[32mINFO    [0m root:yourwork_page.py:11 yourwork Page Title - Log in to continue - Log in with Atlassian account
+[32mINFO    [0m root:yourwork_page.py:15 Logging out from yourwork page
+[32mINFO    [0m root:test_logout.py:23 Your work Page opened

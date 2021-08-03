@@ -1,0 +1,81 @@
+[ {
+  "uid" : "df253967470c87b",
+  "name" : "test_web_be_api_url[argvals0]",
+  "time" : {
+    "start" : 1626888065384,
+    "stop" : 1626888065675,
+    "duration" : 291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d41597fb8a340da",
+  "name" : "test_web_be_api_url[argvals2]",
+  "time" : {
+    "start" : 1626888065988,
+    "stop" : 1626888066289,
+    "duration" : 301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca7cedf6353d35a7",
+  "name" : "test_redirct_callback_url[argvals1]",
+  "time" : {
+    "start" : 1626888064561,
+    "stop" : 1626888064769,
+    "duration" : 208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6425c661de05e5e8",
+  "name" : "test_web_be_api_url[argvals1]",
+  "time" : {
+    "start" : 1626888065679,
+    "stop" : 1626888065984,
+    "duration" : 305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "990afa84ea29cb80",
+  "name" : "test_redirct_callback_url[argvals2]",
+  "time" : {
+    "start" : 1626888064773,
+    "stop" : 1626888065173,
+    "duration" : 400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c337db8f8cfa739",
+  "name" : "test_redirct_callback_url[argvals0]",
+  "time" : {
+    "start" : 1626888063989,
+    "stop" : 1626888064557,
+    "duration" : 568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9d979cfd30ca8da",
+  "name" : "test_web_be_api_url[argvals3]",
+  "time" : {
+    "start" : 1626888066293,
+    "stop" : 1626888066554,
+    "duration" : 261
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "436bf36b9d06f559",
+  "name" : "test_redirct_callback_url[argvals3]",
+  "time" : {
+    "start" : 1626888065177,
+    "stop" : 1626888065380,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
